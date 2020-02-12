@@ -19,5 +19,8 @@ def find_pet_by_tag(tag):
     print(r.status_code, r.headers)
     print(r.content)
 
+    # s = 'http://petstore.swagger.io/v2/pet/89?tags=string&filter=sad'
     
-
+if __name__ == '__main__':
+    # get_habrahabr()
+    find_pet_by_tag('string')
